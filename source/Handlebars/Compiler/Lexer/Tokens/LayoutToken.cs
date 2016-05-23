@@ -1,6 +1,6 @@
 ﻿namespace HandlebarsDotNet.Compiler.Lexer
 {
-    internal class LayoutToken : Token
+    public class LayoutToken : Token
     {
         private readonly string _layout;
 

@@ -2,7 +2,7 @@
 
 namespace HandlebarsDotNet.Compiler.Lexer
 {
-    internal class EndSubExpressionToken : ExpressionScopeToken
+    public class EndSubExpressionToken : ExpressionScopeToken
     {
         public EndSubExpressionToken()
         {

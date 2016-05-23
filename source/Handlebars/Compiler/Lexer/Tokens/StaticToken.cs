@@ -2,7 +2,7 @@
 
 namespace HandlebarsDotNet.Compiler.Lexer
 {
-    internal class StaticToken : Token
+    public class StaticToken : Token
     {
         private readonly string _value;
 

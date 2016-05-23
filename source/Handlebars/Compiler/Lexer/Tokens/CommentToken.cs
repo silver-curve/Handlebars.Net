@@ -2,7 +2,7 @@
 
 namespace HandlebarsDotNet.Compiler.Lexer
 {
-    internal class CommentToken : Token
+    public class CommentToken : Token
     {
         private readonly string _comment;
 

@@ -2,7 +2,7 @@
 
 namespace HandlebarsDotNet.Compiler.Lexer
 {
-    internal class WordExpressionToken : ExpressionToken
+    public class WordExpressionToken : ExpressionToken
     {
         private readonly string _word;
 

@@ -2,7 +2,7 @@
 
 namespace HandlebarsDotNet.Compiler.Lexer
 {
-    internal class StartSubExpressionToken : ExpressionScopeToken
+    public class StartSubExpressionToken : ExpressionScopeToken
     {
         public StartSubExpressionToken()
         {

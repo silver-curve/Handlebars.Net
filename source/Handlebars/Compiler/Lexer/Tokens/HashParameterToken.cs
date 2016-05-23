@@ -2,7 +2,7 @@
 
 namespace HandlebarsDotNet.Compiler.Lexer
 {
-    internal class HashParameterToken : ExpressionToken
+    public class HashParameterToken : ExpressionToken
     {
         private readonly string _parameter;
 

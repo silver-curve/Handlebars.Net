@@ -1,6 +1,6 @@
 ﻿namespace HandlebarsDotNet.Compiler.Lexer
 {
-    internal class PartialToken : Token
+    public class PartialToken : Token
     {
         public override TokenType Type
         {

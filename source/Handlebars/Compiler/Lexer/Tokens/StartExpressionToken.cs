@@ -2,7 +2,7 @@
 
 namespace HandlebarsDotNet.Compiler.Lexer
 {
-    internal class StartExpressionToken : ExpressionScopeToken
+    public class StartExpressionToken : ExpressionScopeToken
     {
         private readonly bool _isEscaped;
         private readonly bool _trimWhitespace;

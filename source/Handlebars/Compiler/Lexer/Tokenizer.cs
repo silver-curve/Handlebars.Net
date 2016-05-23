@@ -6,7 +6,7 @@ using System.Text;
 
 namespace HandlebarsDotNet.Compiler.Lexer
 {
-    internal class Tokenizer
+    public class Tokenizer
     {
         private readonly HandlebarsConfiguration _configuration;
 
